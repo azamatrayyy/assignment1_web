@@ -1,0 +1,131 @@
+p{
+    color: pink;
+    font-size: 20px;
+    font-family: Verdana;
+}
+li{
+    color: blue;
+    font-size: 20px;
+    font-family: Verdana;
+}
+.classname{
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial;
+}
+#idname{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Verdana;
+}
+.about-text{
+    color: blue;
+    font-size: 1.1rem;
+    font-family: Verdana;
+}
+.highlight{
+    background-color: yellow;
+    font-weight: bold;
+}
+#main-heading{
+    color: red;
+    font-size: 24px;
+    font-family: Georgia;
+}
+.header-section {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-section {
+    background-color: green;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.footer-section {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+.box-container {
+    width: 80%;
+    height: 200px;
+    padding:15px;
+    margin: 20px auto;
+    border: 2px solid black;
+    background-color: #f1f1f1;
+}
+.pos-box {
+    padding: 8px 12px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.positioning-section {
+    position: relative;         
+    height: 180px;
+    background-color: #eaeaea;
+    border: 1px dashed #777;
+    padding: 10px;
+    margin: 25px 0;
+}
+.pos-static {
+    position: static;
+    background-color: #7f8c8d;
+    margin-bottom: 5px;
+}
+.pos-relative {
+    position: relative;
+    top: 5px;
+    left: 15px;
+    background-color: #e67e22;
+}
+.pos-absolute {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #9b59b6;
+}
+.size-heading {
+    border: 2px solid black;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.profile-img {
+    width:  45%;
+    height: auto;
+    border-radius: 50%;
+}
+.float-container {
+    background-color: #e8f8f5;
+    padding: 10px;
+    margin: 20px;
+}
+
+.float-left {
+    float: left;
+    width: 48%;
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px;
+}
+
+.float-right {
+    float: right;
+    width: 48%;
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px;
+}
+
+.clearfix {
+    clear: both;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="picture-logo-vanamo-png-8.png">
+    <title>My First Webpage</title>
+
+    <style>
+        body {
+            background-color: lightyellow;
+        }
+        h1 {
+            color: red;
+        }
+        h2 {
+            color: #666;
+        }
+        h3 {
+            color: #999;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-section">
+        <h1 id="main-heading">My full name is Azamat Ray</h1>
+        <h2>I am 2nd year student</h2>
+        <h3>About Me</h3>
+    </div>
+    <br>
+    <div class="main-section">
+        <p class="about-text">My name is Azamat Ray. I am a 2nd year student at the university. I am passionate about web development and enjoy learning new technologies. In my free time, I like to read books, play sports, and explore new places.</p>
+        <br><br>
+        <div class="box-container">
+            <p>My hobbies include:</p>
+            <ol>
+                <li>Reading books</li>
+                <li>Playing sports</li>
+                <li>Exploring new places</li>
+            </ol>
+        </div>
+        <br>
+        <p id="idname">My favorite websites:</p>
+        <ul>
+            <li>Google</li>
+            <li>Kinopoisk</li>
+            <li>YouTube</li>
+        </ul>
+        <br>
+        <p style="color: red;">My photo:</p>
+        <img class="profile-img" src="https://img.sanishtech.com/u/cfe05aa502d480f27c52b497b1f4b29e.jpg" alt="Me" >
+        <br>
+        <a href="https://www.google.com/" >Visit Google</a>
+        <br>
+        <a href="https://www.kinopoisk.ru/" >Visit Kinopoisk</a>
+        <br>
+        <a href="https://www.youtube.com/" >Visit YouTube</a>
+        <br>
+        <button type="button">Click Me!</button>
+        <h4>CSS positioning</h4>
+        <div class="positioning-section">
+            <h4 class="size-heading">Positioning Demonstration</h4>
+            <div class="pos-box pos-static">Static (Default)</div>
+            <div class="pos-box pos-relative">Relative (Shifted)</div>
+            <div class="pos-box pos-absolute">Absolute (Fixed)</div>
+        </div>
+        <div class="float-container">
+            <div class= "float-left">
+                Left Column: Quick Tip
+            </div>
+            <div class="float-right">
+                Right Column:Announcement
+            </div>
+         <div class="clearfix"></div> 
+        </div>
+        <br>
+        <p class="highlight">My schedule for the week:</p>
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Discrete Mathematics</td>
+                <td>Monday</td>
+                <td>14:00-15:50</td>
+            </tr>
+            <tr>
+                <td>Intro to Functional Programming</td>
+                <td>Monday</td>
+                <td>16:00-17:50</td>
+            </tr>
+            <tr>
+                <td>WEB Technologies</td>
+                <td>Monday</td>
+                <td>18:00-19:50</td>
+            </tr>
+            <tr>
+                <td>WEB Technologies</td>
+                <td>Tuesday</td>
+                <td>16:00-17:50</td>
+            </tr>
+            <tr>
+                <td>Intro to Functional Programming</td>
+                <td>Tuesday</td>
+                <td>18:00-19:50</td>
+            </tr>
+            <tr>
+                <td>Discrete Mathematics</td>
+                <td>Wednesday</td>
+                <td>14:00-14:50</td>
+            </tr>
+            <tr>
+                <td>Computer organisation and architecture</td>
+                <td>Wednesday</td>
+                <td>15:00-15:50</td>
+            </tr>
+            <tr>
+                <td>Computer organisation and architecture</td>
+                <td>Thursday</td>
+                <td>14:00-15:50</td>
+            </tr>
+            <tr>
+                <td>Discrete Mathematics</td>
+                <td>Thursday</td>
+                <td>16:00-17:50</td>
+            </tr>
+            <tr>
+                <td>Intro to Functional Programming</td>
+                <td>Friday</td>
+                <td>14:00-14:50</td>
+            </tr>
+        </table>
+        <br>
+        <p class="classname">My mood: 😊 😎 😂 </p>
+        <br>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="favorite-color">Favorite Color:</label>
+            <input type="color" id="favorite-color" name="favorite-color">
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="footer-section">
+        <p>&copy; 2026 Azamat Ray. All rights reserved.</p>
+    </div>
+</body>
+</html>
